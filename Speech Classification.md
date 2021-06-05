@@ -33,15 +33,13 @@ Thus, for a T-second recording, the entire spectrogram is a 100T x 40 matrix, co
 
 ### The training data comprises : ###
 
-Speech recordings (raw mel spectrogram frames)
-
-Frame-level phoneme state labels
+- Speech recordings (raw mel spectrogram frames)
+-  Frame-level phoneme state labels
 
 ### The test data comprises : ###
 
-Speech recordings (raw mel spectrogram frames)
-
-Phoneme state labels are not given
+- Speech recordings (raw mel spectrogram frames)
+- Phoneme state labels are not given
 
 Your job is to identify the **phoneme state label** for each frame in the test data set. It is important to note that utterances are of variable length. We are providing you code to load and parse the raw files into the expected format. For now we are only providing dev data files as the training file is very large.
 
